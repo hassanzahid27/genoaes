@@ -2,7 +2,7 @@ import React from "react";
 
 const Enterpreneurship = () => {
   return (
-    <div className="max-w-[1800px] mx-auto pt-[80px] px-[40px]">
+    <div className=" mx-auto pt-[80px] px-[40px]">
       <p className="text-[#43AA13] text-lg font-normal text-[24px] leading-[32px] tracking-[0]">
         How is life at Genoa Entrepreneurship School?
       </p>
@@ -46,7 +46,7 @@ const Enterpreneurship = () => {
         {/* Image */}
         <img
           src="school.jpg"
-          className="w-full xl:w-[770px] object-cover"
+          className="w-full xl:w-[690px] object-cover"
           alt=""
         />
       </div>
