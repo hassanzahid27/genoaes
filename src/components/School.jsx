@@ -140,7 +140,7 @@ const WhyGenoa = () => {
              max-w-full md:max-w-[810px] mx-auto font-light tracking-[0] text-center
              text-[#43AA13] md:text-black"
       >
-        <span className="md:text-[#43AA13]">Learn and grow</span> with
+        <span className="md:text-[#43AA13] roboto">Learn and grow</span> with
         personalized expert guidance in the world’s most stimulating cities
         while studying
       </h2>
@@ -157,7 +157,7 @@ const WhyGenoa = () => {
             <h3 className="text-[#43AA13] font-light text-[32px] leading-[32px] tracking-[0]">
               01
             </h3>
-            <p className="text-black text-[24px] leading-[32px] tracking-[0] font-normal">
+            <p className="text-black text-[24px] leading-[32px] tracking-[0] font-normal onest">
               Personalized guidance from the best startup experts for life, even
               if you don’t launch.
             </p>
@@ -167,7 +167,7 @@ const WhyGenoa = () => {
           <h3 className="hidden sm:block text-[#43AA13] font-light text-[32px] leading-[32px] tracking-[0] mb-2">
             01
           </h3>
-          <p className="hidden sm:block text-black mb-4 max-w-[361px] text-[24px] leading-[32px] tracking-[0]">
+          <p className="hidden sm:block  font-light mb-4 max-w-[361px] text-[24px] leading-[32px] tracking-[0] onest">
             Personalized guidance from the best startup experts for life, even
             if you don’t launch.
           </p>
@@ -210,7 +210,7 @@ const WhyGenoa = () => {
           <h3 className="hidden sm:block text-[#43AA13] font-light text-[32px] leading-[32px] tracking-[0] mb-2">
             02
           </h3>
-          <p className="hidden sm:block text-black mb-4 max-w-[361px] text-[24px] leading-[32px] tracking-[0]">
+          <p className="hidden sm:block text-black mb-4 max-w-[361px] text-[24px] leading-[32px] tracking-[0] onest ">
             Learn by combining theory and practice by building in the most
             stimulating US & EU cities
           </p>
@@ -254,7 +254,7 @@ const WhyGenoa = () => {
           <h3 className="hidden sm:block text-[#43AA13] font-light text-[32px] leading-[32px] tracking-[0] mb-2">
             03
           </h3>
-          <p className="hidden sm:block text-black mb-12 max-w-[399px] text-[24px] leading-[32px] tracking-[0]">
+          <p className="hidden sm:block text-black mb-12 max-w-[399px] text-[24px] leading-[32px] tracking-[0] onest">
             75% of our students closed a round within 6 months
           </p>
 

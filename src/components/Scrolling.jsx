@@ -18,19 +18,161 @@ const Scrolling = () => {
           Understand the Experience Directly From our students
           <span
             onClick={handleScroll}
-            className="text-8xl pl-[200px] max-w-[47.25px] text-[#43AA13]"
+            className="pl-[200px] pt-[32px] cursor-pointer"
           >
-            →
+            <img
+              src="ga.png"
+              alt="arrow"
+              className="w-[47.25px] h-auto text-[#43AA13]"
+            />
           </span>
         </p>
 
         <div
           ref={scrollRef}
-          className="flex gap-[8px] overflow-x-auto scrollbar-hide scroll-smooth md:pl-4"
+          className="flex gap-[8px] overflow-x-auto scroll-smooth w-full max-w-screen px-4 snap-x snap-mandatory scrollbar-hide"
         >
-          <img src="card1.png" alt="" className="flex-shrink-0" />
-          <img src="card2.png" alt="" className="flex-shrink-0" />
-          <img src="card1.png" alt="" className="flex-shrink-0" />
+          {/** Card 1 */}
+          <div className="bg-[#E5EBDD] w-[436px] shrink-0 snap-start relative flex flex-col items-start">
+            {/* Text */}
+            <p className="relative z-10 text-[24px] leading-[32px] font-light px-[16px] text-[#193E2C] pt-[16px]">
+              “I wasn't considering pursuing a master's degree but this course
+              is practical and opens incredible doors. It certainly is the
+              experience that has improved me the most in my life.”
+            </p>
+
+            {/* Comma image */}
+            <img
+              src="comma.png"
+              alt="comma"
+              className="absolute right-6 top-28 -translate-y-1/2 w-[200px] h-auto opacity-80"
+            />
+            <div className="pl-[16px] pt-[84px]">
+              <a
+                href="https://www.linkedin.com/in/hassan-zahid-29367b360?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src="IconButton.png" alt="LinkedIn" />
+              </a>
+            </div>
+            <div className="flex-col px-[16px] pt-[24px]">
+              <h2 className="font-medium text-[18px] leading-[24px] tracking-[0] text-[#202020]">
+                Lea Delic
+              </h2>
+              <p className="font-light text-[18px] leading-[24px] tracking-[0] text-[#202020]">
+                Student founder 2023
+              </p>
+              <img src="Girl.jpg" className="pt-[8px] pb-[16px]" alt="" />
+            </div>
+          </div>
+
+          {/** Card 2 */}
+          <div className="bg-[#BCD4C7] w-[436px] shrink-0 snap-start relative flex flex-col items-start">
+            {/* Text */}
+            <p className="relative z-10 text-[24px] leading-[32px] font-light px-[16px] text-[#193E2C] pt-[16px]">
+              “The other students are amazing people, and mentors are
+              incredible. They are at a global level, but they take the time to
+              be with you and are ready to support you 24/7.”
+            </p>
+
+            {/* Comma image */}
+            <img
+              src="comma.png"
+              alt="comma"
+              className="absolute right-6 top-28 -translate-y-1/2 w-[200px] h-auto opacity-80"
+            />
+            <div className="pl-[16px] pt-[84px]">
+              <a
+                href="https://www.linkedin.com/in/hassan-zahid-29367b360?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src="IconButton.png" alt="LinkedIn" />
+              </a>
+            </div>
+
+            <div className="flex-col px-[16px] pt-[24px]">
+              <h2 className="font-medium text-[18px] leading-[24px] tracking-[0] text-[#202020]">
+                Chalermchon Puapolthep
+              </h2>
+              <p className="font-light text-[18px] leading-[24px] tracking-[0] text-[#202020]">
+                Student founder 2023
+              </p>
+              <img src="boy.jpg" className="pt-[8px] pb-[16px]" alt="" />
+            </div>
+          </div>
+
+          <div className="bg-[#BCD4C7] w-[436px] shrink-0 snap-start relative flex flex-col items-start">
+            {/* Text */}
+            <p className="relative z-10 text-[24px] leading-[32px]  font-light px-[16px] text-[#193E2C] pt-[16px]">
+              “The other students are amazing people, and mentors are
+              incredible. They are at a global level, but they take the time to
+              be with you and are ready to support you 24/7.”
+            </p>
+
+            {/* Comma image */}
+            <img
+              src="comma.png"
+              alt="comma"
+              className="absolute right-6 top-28 -translate-y-1/2 w-[200px] h-auto opacity-80"
+            />
+
+            <div className="pl-[16px] pt-[84px]">
+              <a
+                href="https://www.linkedin.com/in/hassan-zahid-29367b360?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src="IconButton.png" alt="LinkedIn" />
+              </a>
+            </div>
+
+            <div className="flex-col px-[16px] pt-[24px]">
+              <h2 className="font-medium text-[18px] leading-[24px] tracking-[0] text-[#202020]">
+                Chalermchon Puapolthep
+              </h2>
+              <p className="font-light text-[18px] leading-[24px] tracking-[0] text-[#202020]">
+                Student founder 2023
+              </p>
+              <img src="boy.jpg" className="pt-[8px] pb-[16px]" alt="" />
+            </div>
+          </div>
+          <div className="bg-[#E5EBDD] w-[436px] shrink-0 snap-start relative flex flex-col items-start">
+            {/* Text */}
+            <p className="relative z-10 text-[24px] leading-[32px] px-[16px] font-light text-[#193E2C] pt-[16px]">
+              “I wasn't considering pursuing a master's degree but this course
+              is practical and opens incredible doors. It certainly is the
+              experience that has improved me the most in my life.”
+            </p>
+
+            {/* Comma image */}
+            <img
+              src="comma.png"
+              alt="comma"
+              className="absolute right-6 top-28 -translate-y-1/2 w-[200px] h-auto opacity-80"
+            />
+
+            <div className="pl-[16px] pt-[84px]">
+              <a
+                href="https://www.linkedin.com/in/hassan-zahid-29367b360?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src="IconButton.png" alt="LinkedIn" />
+              </a>
+            </div>
+
+            <div className="flex-col px-[16px] pt-[24px]">
+              <h2 className="font-medium text-[18px] leading-[24px] tracking-[0] text-[#202020]">
+                Lea Delic
+              </h2>
+              <p className="font-light text-[18px] leading-[24px] tracking-[0] text-[#202020]">
+                Student founder 2023
+              </p>
+              <img src="Girl.jpg" className="pt-[8px] pb-[16px]" alt="" />
+            </div>
+          </div>
         </div>
       </div>
     </div>

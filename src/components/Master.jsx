@@ -15,9 +15,13 @@ const Master = () => {
           </div>
         </div>
 
-        <div className="flex ">
-          <img src="students.jpg" className="max-w-[680px]" alt="" />
-          <div className="bg-[#193E2C] max-w-[780px] ">
+        <div className="flex flex-col xl:flex-row max-w-[2300px]">
+          <img
+            src="students.jpg"
+            className="xl:max-w-[680px] md:max-w-[1280px] object-cover"
+            alt=""
+          />
+          <div className="bg-[#193E2C] xl:max-w-[780px] max-w-[1280px] ">
             <div className="   ">
               <div className="px-[40px] pt-[40px]  flex flex-col">
                 <p className="font-light text-[48px] leading-[48px] tracking-[0] text-[#43AA13] max-w-[400px] ">
@@ -56,8 +60,13 @@ const Master = () => {
 
               {/* Text content */}
               <div>
-                <div className="text-[#FCFAF2] font-normal text-[22px] leading-[24px] tracking-[0] align-middle max-w-[597px]">
+                <div className="text-[#FCFAF2] font-normal text-[22px] leading-[24px] tracking-[0] align-middle xl:max-w-[597px] md:max-w-[797px] relative">
                   “ In a word, this course is life-changing.
+                  <img
+                    src="comma.png"
+                    alt=""
+                    className="absolute bottom-[-14px] right-[-24px]  w-[200px] h-auto"
+                  />
                   <p>
                     Experiencing Silicon Valley in such depth is something I
                     couldn't even imagine. ”
