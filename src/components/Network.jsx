@@ -18,7 +18,7 @@ const Network = () => {
           <img
             src="network.png"
             alt=""
-            class="lg:max-w-[1000px] h-[900px] md:h-auto  object-cover"
+            class="lg:max-w-[1000px] h-[800px] md:h-auto  object-cover"
           />
 
           <div className="absolute inset-0 bg-[linear-gradient(90.93deg,rgba(32,32,32,0)_0.8%,#202020_61.41%)] lg:flex items-center justify-between lg:justify-end ">
@@ -44,22 +44,23 @@ const Network = () => {
                   </p>
                 </div>
               </div>
-              <div className="lg:pt-[164px] pt-28  flex-col text-[#FCFAF2] flex-wrap  ">
+              <div className="lg:pt-[164px] pt-28  flex-col text-[#FCFAF2] flex-wrap  md:pl-12 ">
                 <p>Where our mentors worked in:</p>
                 <div className="flex pt-[36px] md:gap-[40px] sm:gap-[10px]">
                   <h1 className="text-2xl font-semibold">Google</h1>
                   <img src="iw.png" alt="" />
                   <img src="Fw.png" alt="" />
-                  <img src="Textw.svg" alt="" />
-                  <img src="Uw.svg" alt="" />
-                  <h1 className="font-bold text-2xl">Stripe</h1>
+                  <img src="Textw.svg" alt="" className="hidden md:block" />
+                  <img src="Uw.svg" alt="" className="hidden md:block" />
+
+                  {/* <h1 className="font-bold text-2xl">Stripe</h1> */}
                 </div>
 
                 <div className="flex pt-[36px] md:gap-[50px] sm:gap-[10px]">
                   <img src="Sw.png" alt="" />
                   <img src="Ew.png" alt="" />
-                  <img src="Mw.png" alt="" />
-                  <img src="ia.png" alt="" />
+                  <img src="Mw.png" alt="" className="hidden md:block" />
+                  <img src="ia.png" alt="" className="hidden md:block" />
                 </div>
               </div>
             </div>
