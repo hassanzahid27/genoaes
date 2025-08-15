@@ -2,7 +2,7 @@ import React from "react";
 
 const Network = () => {
   return (
-    <div className="px-[40px] pt-[80px]">
+    <div className="md:px-[40px] px-[16px] pt-[80px]">
       <div>
         <p className="text-[#43AA13] text-lg font-normal text-[24px] leading-[32px] tracking-[0]">
           Who is in our network?
@@ -23,8 +23,8 @@ const Network = () => {
 
           <div className="absolute inset-0 bg-[linear-gradient(90.93deg,rgba(32,32,32,0)_0.8%,#202020_61.41%)] lg:flex items-center justify-between lg:justify-end ">
             <div className="    ">
-              <div className="max-w-[681px]  text-left  flex flex-col gap-[12px]   ">
-                <p className="font-light text-[48px] leading-[54px] tracking-[0] text-[#FCFAF2]   ">
+              <div className="max-w-[681px]  text-left  flex flex-col md:gap-[12px]   ">
+                <p className="font-light md:text-[48px] text-[32px] px-[16px] leading-[54px] tracking-[0] text-[#FCFAF2]   ">
                   Joined by experts who
                   <span className="text-[#43AA13]"> raised </span>
                   over
@@ -33,20 +33,20 @@ const Network = () => {
                   <span className="text-[#43AA13]"> manage $100 billion </span>
                   in assets combined
                 </p>
-                <p className="text-[#FCFAF2]  font-light text-[24px] leading-[32px] tracking-[0] max-w-[711px]">
+                <p className="text-[#FCFAF2]  font-light px-[16px] text-[24px] leading-[32px] tracking-[0] max-w-[711px]">
                   World experts dedicate their time to help our students grow.
                 </p>
               </div>
-              <div className="flex justify-end text-[#FCFAF2] pt-[40px]  pr-[45px] ">
-                <div className="w-[263px] h-[52px] pt-[14px]  pb-[14px] pl-[24px] gap-[8px] border border-solid opacity-100 flex ">
+              <div className="flex justify-end text-[#FCFAF2] pt-[40px]  md:pr-[45px] px-[16px] ">
+                <div className="w-[263px] h-[52px] pt-[14px]  pb-[14px] md:pl-[24px] pl-[28px] gap-[8px] border border-solid opacity-100 flex ">
                   <p class="font-normal text-[16px] leading-[24px] tracking-[0] uppercase pb-24">
                     Discover the network <span className="text-xl">→</span>
                   </p>
                 </div>
               </div>
-              <div className="lg:pt-[80px]  flex-col text-[#FCFAF2] flex-wrap  md:pl-12 ">
+              <div className="md:pt-[80px] pt-[190px] flex-col text-[#FCFAF2] flex-wrap  md:pl-12  pl-[8px]">
                 <p>Where our mentors worked in:</p>
-                <div className="flex pt-[36px] md:gap-[40px] sm:gap-[10px]">
+                <div className="flex pt-[36px] md:gap-[40px] gap-[60px]">
                   <h1 className="text-2xl font-semibold">Google</h1>
                   <img src="iw.png" alt="" />
                   <img src="Fw.png" alt="" />
@@ -56,7 +56,7 @@ const Network = () => {
                   {/* <h1 className="font-bold text-2xl">Stripe</h1> */}
                 </div>
 
-                <div className="flex pt-[36px] md:gap-[50px] sm:gap-[10px]">
+                <div className="flex pt-[36px] md:gap-[50px] gap-[2px]">
                   <img src="Sw.png" alt="" />
                   <img src="Ew.png" alt="" />
                   <img src="Mw.png" alt="" className="hidden md:block" />

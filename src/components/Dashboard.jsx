@@ -10,14 +10,16 @@ const Dashboard = () => {
             <p className="text-[48px] sm:text-[64px] md:text-[80px] lg:text-[90px] leading-tight tracking-[0] text-[#202020] uppercase">
               $320K
             </p>
-            <p className="text-center px-4">average raised by our students</p>
+            <p className="text-center px-4 font-light  ">
+              average raised by our students
+            </p>
           </div>
 
           <div className="flex flex-col items-center justify-center gap-[16px]">
             <p className="text-[48px] sm:text-[64px] md:text-[80px] lg:text-[90px] leading-tight tracking-[0] uppercase text-[#202020]">
               75%
             </p>
-            <p className="text-center px-4">
+            <p className="text-center px-4 font-light">
               of our students closed a funding round
             </p>
           </div>
@@ -26,15 +28,19 @@ const Dashboard = () => {
             <p className="text-[48px] sm:text-[64px] md:text-[80px] lg:text-[90px] leading-tight tracking-[0] uppercase text-[#202020]">
               9.8/10
             </p>
-            <p className="text-center px-4">
+            <p className="text-center px-4 font-light">
               is our students' likelihood of recommending us
             </p>
           </div>
         </div>
 
         {/* Experts section */}
-        <div className="flex flex-col lg:flex-row items-center lg:items-start pt-[24px] gap-4 lg:gap-0 lg:justify-between lg:px-[32px]">
-          <p className="text-[#43AA13] font-normal text-[20px] sm:text-[22px] md:text-[24px] leading-[32px] tracking-[0] text-center lg:text-left">
+        <div className="flex flex-col lg:flex-row  lg:items-start pt-[24px] gap-4 lg:gap-0 lg:justify-between lg:px-[32px]">
+          {/* <p className="text-[#43AA13] font-normal text-[20px] sm:text-[22px] md:text-[24px] leading-[32px] tracking-[0]  md:text-center lg:text-left  ">
+            Joined by experts with experience in:
+          </p> */}
+
+          <p className="text-[#43AA13] font-normal text-[20px] sm:text-[22px] md:text-[24px] leading-[32px] tracking-[0] max-w-[200px] md:max-w-none text-left md:text-center lg:text-left">
             Joined by experts with experience in:
           </p>
 

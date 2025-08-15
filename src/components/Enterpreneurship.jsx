@@ -2,7 +2,7 @@ import React from "react";
 
 const Enterpreneurship = () => {
   return (
-    <div className=" mx-auto pt-[80px] px-[40px]">
+    <div className=" mx-auto pt-[80px] md:px-[40px] px-[16px]">
       <p className="text-[#43AA13] text-lg font-normal text-[24px] leading-[32px] tracking-[0]">
         How is life at Genoa Entrepreneurship School?
       </p>
@@ -28,8 +28,8 @@ const Enterpreneurship = () => {
           </p>
 
           {/* Button */}
-          <div className="pt-[40px] md:pt-[80px] lg:pt-[150px] xl:pt-[216px] pb-[40px] flex justify-center md:justify-end md:pr-[40px]">
-            <div className="border h-[52px] flex items-center px-6 w-auto max-w-full">
+          <div className="pt-[40px] md:pt-[80px] lg:pt-[150px] xl:pt-[216px] pb-[40px] flex px-[16px] md:justify-end md:pr-[40px]">
+            <div className="border h-[52px] flex items-center md:px-6 px-24 w-auto max-w-full">
               <button className="flex items-center gap-3 text-[14px] sm:text-[15px] md:text-[16px] leading-[24px] uppercase tracking-[0] whitespace-nowrap text-left text-ellipsis overflow-hidden">
                 {/* Mobile text */}
                 <span className="sm:hidden">Discover More</span>

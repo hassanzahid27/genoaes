@@ -30,7 +30,11 @@ const Professor = () => {
                 <div className="flex flex-col">
                   <h1>Shye Gilad</h1>
                   <p className="font-light text-[12px] sm:text-[14px] xl:text-[16px] leading-[16px] sm:leading-[18px] xl:leading-[20px] sm:whitespace-nowrap">
-                    Professor at Georgetown University
+                    <p className="text-base sm:text-lg">
+                      Professor at
+                      <br className="block sm:hidden" />
+                      Georgetown University
+                    </p>
                   </p>
                 </div>
               </div>

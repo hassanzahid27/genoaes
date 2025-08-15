@@ -23,7 +23,7 @@ const Scrolling = () => {
             <img
               src="ga.png"
               alt="arrow"
-              className="w-[47.25px] h-auto text-[#43AA13]"
+              className="w-[47.25px] h-auto text-[#43AA13] sm:rotate-0 rotate-90"
             />
           </span>
         </p>
@@ -115,7 +115,7 @@ const Scrolling = () => {
             <img
               src="comma.png"
               alt="comma"
-              className="absolute right-6 top-28 -translate-y-1/2 w-[200px] h-auto opacity-80"
+              className="absolute right-6 top-28 -translate-y-1/2 w-[200px] h-auto opacity-80 "
             />
 
             <div className="pl-[16px] pt-[84px]">

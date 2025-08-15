@@ -2,7 +2,7 @@ import React from "react";
 
 const Master = () => {
   return (
-    <div className="px-[40px] pt-[40px]">
+    <div className="md:px-[40px] px-[20px] pt-[40px]">
       <div className=" ">
         <p className="text-[#43AA13] text-lg font-normal text-[24px] leading-[32px] tracking-[0]">
           What do we offer?
@@ -18,35 +18,40 @@ const Master = () => {
         <div className="flex flex-col xl:flex-row max-w-[2300px]">
           <img
             src="students.jpg"
-            className="xl:max-w-[680px] md:max-w-[1280px] object-cover"
+            className="xl:max-w-[880px] md:max-w-[1280px] object-cover"
             alt=""
           />
           <div className="bg-[#193E2C] xl:max-w-[780px] max-w-[1280px] ">
             <div className="   ">
-              <div className="px-[40px] pt-[40px]  flex flex-col">
-                <p className="font-light text-[48px] leading-[48px] tracking-[0] text-[#43AA13] max-w-[400px] ">
+              <div className="md:px-[40px] md:pt-[40px] px-[16px] flex flex-col">
+                {/* <p className="font-light text-[48px] leading-[48px] tracking-[0] text-[#43AA13] max-w-[400px] ">
+                  Master in International Business Creation
+                </p> */}
+
+                <p className="font-light md:text-[48px] text-2xl leading-[48px] tracking-[0] text-[#43AA13] md:max-w-[400px] max-w-[300px]">
                   Master in International Business Creation
                 </p>
               </div>
-              <div className="flex flex-col pr-[180px] pt-[24px] gap-[12px]">
-                <div className="flex max-w-[900px] gap-[40px] ">
-                  <div className="font-roboto font-light text-[18px] leading-[24px] tracking-[0] text-[#FCFAF2] pl-[40px]">
+
+              <div className="flex flex-col pl-[16px] pt-[24px] gap-[12px] sm:pr-[150px]">
+                <div className="flex flex-wrap sm:flex-nowrap max-w-[900px] md:gap-[70px] gap-[10px]">
+                  <div className="font-roboto font-light text-[18px] leading-[24px] tracking-[0] text-[#FCFAF2] md:pl-[40px] w-full sm:w-auto">
                     Duration:
-                    <span className=" font-normal text-[20px] leading-[26px] tracking-[0] text-[#FCFAF2]">
+                    <span className="font-normal text-[20px] leading-[26px] tracking-[0] text-[#FCFAF2]">
                       8 months
                     </span>
                   </div>
-                  <div class="font-roboto font-light text-[18px] leading-[24px] tracking-[0] text-[#FCFAF2] pl-[40px]">
+                  <div className="font-roboto font-light text-[18px] leading-[24px] tracking-[0] text-[#FCFAF2] w-full sm:w-auto">
                     Idea stage:
-                    <span className=" font-normal text-[20px] leading-[26px] tracking-[0] text-[#FCFAF2]">
+                    <span className="font-normal text-[20px] leading-[26px] tracking-[0] text-[#FCFAF2]">
                       from no idea to pre seed
                     </span>
                   </div>
                 </div>
-                <div className="flex">
-                  <div className="font-roboto font-light text-[18px] leading-[24px] tracking-[0] text-[#FCFAF2] pl-[40px]">
+                <div className="flex flex-wrap sm:flex-nowrap">
+                  <div className="font-roboto font-light text-[18px] leading-[24px] tracking-[0] text-[#FCFAF2] md:pl-[40px] w-full sm:w-auto">
                     Locations:
-                    <span className=" font-normal text-[20px] leading-[26px] tracking-[0] text-[#FCFAF2]">
+                    <span className="font-normal text-[20px] leading-[26px] tracking-[0] text-[#FCFAF2]">
                       Washington D.C., New York, San Francisco, Genoa
                     </span>
                   </div>
@@ -54,7 +59,7 @@ const Master = () => {
               </div>
             </div>
 
-            <div className="flex pl-[40px] pt-[180px]">
+            <div className="flex md:pl-[40px] px-[16px]  md:pt-[180px] pt-[32px]">
               {/* Green vertical line */}
               <div className="border-l-[1px] border-[#43AA13] mr-[16px]"></div>
 
@@ -80,7 +85,7 @@ const Master = () => {
             </div>
             <div className="pt-[40px] md:pt-[80px] lg:pt-[150px] xl:pt-[48px] pb-[40px] flex justify-center md:justify-end md:pr-[40px]">
               <div className="bg-[#43AA13] border h-[52px] flex items-center w-auto">
-                <button className="flex items-center gap-3 text-white px-6 py-2 font-normal text-[14px] sm:text-[15px] md:text-[16px] leading-[24px] uppercase tracking-[0] whitespace-nowrap">
+                <button className="flex items-center gap-3 text-white md:px-6 py-2 px-10 font-normal text-[14px] sm:text-[15px] md:text-[16px] leading-[24px] uppercase tracking-[0] whitespace-nowrap">
                   Discover Our Program <span className="text-2xl">↗</span>
                 </button>
               </div>
