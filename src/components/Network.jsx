@@ -18,12 +18,12 @@ const Network = () => {
           <img
             src="network.png"
             alt=""
-            class="lg:max-w-[1000px] h-[800px] md:h-auto  object-cover"
+            class="lg:max-w-[900px] h-[800px] md:h-auto  object-cover"
           />
 
           <div className="absolute inset-0 bg-[linear-gradient(90.93deg,rgba(32,32,32,0)_0.8%,#202020_61.41%)] lg:flex items-center justify-between lg:justify-end ">
             <div className="    ">
-              <div className="max-w-[681px] text-left  flex flex-col gap-[12px]   ">
+              <div className="max-w-[681px]  text-left  flex flex-col gap-[12px]   ">
                 <p className="font-light text-[48px] leading-[54px] tracking-[0] text-[#FCFAF2]   ">
                   Joined by experts who
                   <span className="text-[#43AA13]"> raised </span>
@@ -44,7 +44,7 @@ const Network = () => {
                   </p>
                 </div>
               </div>
-              <div className="lg:pt-[164px] pt-28  flex-col text-[#FCFAF2] flex-wrap  md:pl-12 ">
+              <div className="lg:pt-[80px]  flex-col text-[#FCFAF2] flex-wrap  md:pl-12 ">
                 <p>Where our mentors worked in:</p>
                 <div className="flex pt-[36px] md:gap-[40px] sm:gap-[10px]">
                   <h1 className="text-2xl font-semibold">Google</h1>
