@@ -36,10 +36,6 @@ const Dashboard = () => {
 
         {/* Experts section */}
         <div className="flex flex-col lg:flex-row  lg:items-start pt-[24px] gap-4 lg:gap-0 lg:justify-between lg:px-[32px]">
-          {/* <p className="text-[#43AA13] font-normal text-[20px] sm:text-[22px] md:text-[24px] leading-[32px] tracking-[0]  md:text-center lg:text-left  ">
-            Joined by experts with experience in:
-          </p> */}
-
           <p className="text-[#43AA13] font-normal text-[20px] sm:text-[22px] md:text-[24px] leading-[32px] tracking-[0] max-w-[200px] md:max-w-none text-left md:text-center lg:text-left">
             Joined by experts with experience in:
           </p>

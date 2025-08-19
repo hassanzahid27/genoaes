@@ -1,32 +1,17 @@
-import React from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
-import Professor from "./components/Professor";
-import Enterpreneurship from "./components/Enterpreneurship";
-import Jounney from "./components/Jounney";
-import WhyGenoa from "./components/School";
-import Scrolling from "./components/Scrolling";
-import Footer from "./components/Footer";
-import Startup from "./components/Startup";
-import Master from "./components/Master";
-import Network from "./components/Network";
-import Dashboard from "./components/Dashboard";
+import Home from "./pages/Home";
+import Program from "./pages/program";
 
 const App = () => {
   return (
-    <div className="bg-[#FCFAF2]">
+    <Router>
       <Navbar />
-      <Dashboard />
-      <Startup />
-      <Professor />
-      <Master />
-      <WhyGenoa />
-      <Network />
-      <Enterpreneurship />
-
-      <Scrolling />
-      <Jounney />
-      <Footer />
-    </div>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/program" element={<Program />} />
+      </Routes>
+    </Router>
   );
 };
 

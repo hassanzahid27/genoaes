@@ -55,7 +55,6 @@ const Startup = () => {
             </div>
           </div>
 
-          {/* Second Ranking Block */}
           <div className="flex items-start gap-[16px] flex-1 pl-0 xl:pr-[400px]  ">
             <img src="Button container.png" alt="Censis Ranking" />
             <div className="flex flex-col">
@@ -74,7 +73,6 @@ const Startup = () => {
 
         <div className="flex md:justify-end justify-center pb-[94px] md:px-4 ">
           {" "}
-          {/* add some horizontal padding to prevent overflow */}
           <div
             className="flex items-center gap-2 border border-solid opacity-100 
                   w-full md:max-w-[243px] max-w-[443px] h-[52px] 
@@ -82,10 +80,6 @@ const Startup = () => {
                   box-border
                   "
           >
-            {/* <p className="font-normal text-[16px] leading-[24px] tracking-[0] uppercase whitespace-nowrap overflow-hidden text-ellipsis">
-              Read More About US <span className="text-xl inline-block">→</span>
-            </p> */}
-
             <p className="font-normal text-[16px] leading-[24px] tracking-[0] uppercase whitespace-nowrap overflow-hidden text-ellipsis text-center sm:text-left">
               Read More About US <span className="text-xl inline-block">→</span>
             </p>

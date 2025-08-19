@@ -1,6 +1,6 @@
 import React from "react";
 
-const Professor = () => {
+const Professssssor = () => {
   return (
     <div className="max-w-[2800px] mx-auto px-[20px] xl:px-[40px] overflow-hidden">
       <div className="flex flex-col-reverse xl:flex-row">
@@ -53,4 +53,4 @@ const Professor = () => {
   );
 };
 
-export default Professor;
+export default Professssssor;

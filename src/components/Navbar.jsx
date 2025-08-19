@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { FiMenu, FiX } from "react-icons/fi";
 import { MdArrowDropDown } from "react-icons/md";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -27,9 +28,9 @@ const Navbar = () => {
             <a href="#" className="hover:text-[#00BFFF]">
               About
             </a>
-            <a href="#" className="hover:text-[#00BFFF]">
+            <Link to="/program" className="hover:text-[#00BFFF]">
               Our Program
-            </a>
+            </Link>
             <a href="#" className="hover:text-[#00BFFF]">
               Our Network
             </a>
@@ -74,9 +75,10 @@ const Navbar = () => {
             <a href="#" className="hover:text-[#00BFFF]">
               About
             </a>
-            <a href="#" className="hover:text-[#00BFFF]">
+            <Link to="/program" className="hover:text-[#00BFFF]">
               Our Program
-            </a>
+            </Link>
+
             <a href="#" className="hover:text-[#00BFFF]">
               Our Network
             </a>
