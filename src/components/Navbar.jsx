@@ -25,9 +25,9 @@ const Navbar = () => {
 
           {/* Desktop Nav - show only on xl and above */}
           <div className="hidden xl:flex gap-[40px] roboto text-white text-sm sm:text-base pl-[420px] font-inter">
-            <a href="#" className="hover:text-[#00BFFF]">
+            <Link to="/about" className="hover:text-[#00BFFF]">
               About
-            </a>
+            </Link>
             <Link to="/program" className="hover:text-[#00BFFF]">
               Our Program
             </Link>
@@ -72,9 +72,9 @@ const Navbar = () => {
         {/* Mobile Menu - visible below xl when open */}
         {menuOpen && (
           <nav className="flex flex-col gap-4 text-white items-center justify-center bg-opacity-80 px-6 py-6   border-[#FCFAF2] xl:hidden">
-            <a href="#" className="hover:text-[#00BFFF]">
+            <Link to="/about" className="hover:text-[#00BFFF]">
               About
-            </a>
+            </Link>
             <Link to="/program" className="hover:text-[#00BFFF]">
               Our Program
             </Link>
