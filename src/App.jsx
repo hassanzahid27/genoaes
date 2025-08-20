@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
 import Program from "./pages/program";
 import About from "./pages/About";
+import Network from "./pages/Network";
 
 const App = () => {
   return (
@@ -12,6 +13,7 @@ const App = () => {
         <Route path="/" element={<Home />} />
         <Route path="/program" element={<Program />} />
         <Route path="/about" element={<About />} />
+        <Route path="/network" element={<Network />} />
       </Routes>
     </Router>
   );

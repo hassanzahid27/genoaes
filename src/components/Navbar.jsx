@@ -31,9 +31,9 @@ const Navbar = () => {
             <Link to="/program" className="hover:text-[#00BFFF]">
               Our Program
             </Link>
-            <a href="#" className="hover:text-[#00BFFF]">
+            <Link to="/network" className="hover:text-[#00BFFF]">
               Our Network
-            </a>
+            </Link>
             <a href="#" className="hover:text-[#00BFFF]">
               Why Choose Us?
             </a>
@@ -79,9 +79,9 @@ const Navbar = () => {
               Our Program
             </Link>
 
-            <a href="#" className="hover:text-[#00BFFF]">
+            <Link to="/network" className="hover:text-[#00BFFF]">
               Our Network
-            </a>
+            </Link>
             <a href="#" className="hover:text-[#00BFFF]">
               Why Choose Us?
             </a>
