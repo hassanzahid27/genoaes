@@ -63,7 +63,7 @@ const Scrolling = () => {
               <p className="font-light text-[18px] leading-[24px] tracking-[0] text-[#202020]">
                 Student founder 2023
               </p>
-              <img src="Girl.jpg" className="pt-[8px] pb-[16px]" alt="" />
+              <img src="e.jpg" className="pt-[8px] pb-[16px]" alt="" />
             </div>
           </div>
 
@@ -99,7 +99,7 @@ const Scrolling = () => {
               <p className="font-light text-[18px] leading-[24px] tracking-[0] text-[#202020]">
                 Student founder 2023
               </p>
-              <img src="boy.jpg" className="pt-[8px] pb-[16px]" alt="" />
+              <img src="boyy.jpg" className="pt-[8px] pb-[16px]" alt="" />
             </div>
           </div>
 
@@ -135,7 +135,7 @@ const Scrolling = () => {
               <p className="font-light text-[18px] leading-[24px] tracking-[0] text-[#202020]">
                 Student founder 2023
               </p>
-              <img src="boy.jpg" className="pt-[8px] pb-[16px]" alt="" />
+              <img src="boyy.jpg" className="pt-[8px] pb-[16px]" alt="" />
             </div>
           </div>
           <div className="bg-[#E5EBDD] w-[436px] shrink-0 snap-start relative flex flex-col items-start">
@@ -170,7 +170,7 @@ const Scrolling = () => {
               <p className="font-light text-[18px] leading-[24px] tracking-[0] text-[#202020]">
                 Student founder 2023
               </p>
-              <img src="Girl.jpg" className="pt-[8px] pb-[16px]" alt="" />
+              <img src="e.jpg" className="pt-[8px] pb-[16px]" alt="" />
             </div>
           </div>
         </div>
