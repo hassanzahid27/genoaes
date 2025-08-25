@@ -3,7 +3,7 @@ import { FaInstagram, FaLinkedin } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <div className="px-[40px] relative">
+    <div className="md:px-[40px] px-[20px] relative">
       {/* Top border */}
       <div className="mt-6 flex flex-col md:flex-row justify-between items-center pb-[40px] text-xs text-[#072661] mx-auto gap-2">
         <div className="flex w-full">

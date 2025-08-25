@@ -2,7 +2,7 @@ import React from "react";
 
 const Town = () => {
   return (
-    <div className="px-[40px] pt-[90px]">
+    <div className="px-[20px] md:px-[40px] pt-[90px]">
       <div className="  flex flex-col lg:flex-row gap-[20px]">
         <img
           src="to.png"

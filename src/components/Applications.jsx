@@ -2,7 +2,7 @@ import React from "react";
 
 const Applications = () => {
   return (
-    <div className="px-[40px] pt-[120px]">
+    <div className="md:px-[40px] px-[20px]  pt-[120px]">
       <p className="text-[#43AA13] text-lg font-normal text-[24px] leading-[32px] tracking-[0]">
         Application process
       </p>
@@ -65,19 +65,19 @@ const Applications = () => {
               <p class="text-xl font-light">04</p>
             </div>
             <h3 class="text-base font-semibold">Monthly admission results</h3>
-            <p class="text-sm font-normal text-gray-700 leading-6 max-w-[700px]">
+            <p class="text-sm font-normal text-gray-700 leading-6 max-w-[900px] lg:whitespace-nowrap">
               At the end of each calendar month, we send the admission results
               to applicants’ email inboxes.
             </p>
           </div>
 
-          <div class="flex flex-col gap-2 border-t border-[#E5E5E5] pt-6 xl:pl-[50px]">
+          <div class="flex flex-col gap-2 border-t border-[#E5E5E5] pt-6 xl:pl-[150px]">
             <div class="flex items-center gap-2">
               <span class="text-[#43AA13]">➝</span>
               <p class="text-xl font-light">05</p>
             </div>
             <h3 class="text-base font-semibold">Successfully enroll</h3>
-            <p class="text-sm font-normal text-gray-700 leading-6">
+            <p class="text-sm font-normal text-gray-700 leading-6  max-w-[900px] lg:whitespace-nowrap">
               Upon admission, students successfully enroll in the program within
               10 days by paying a €2282 deposit.
             </p>

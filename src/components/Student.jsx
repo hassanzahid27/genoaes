@@ -8,7 +8,7 @@ const Student = () => {
       </p>
 
       {/* Divider line */}
-      <div className="mt-6 flex flex-col md:flex-row justify-between items-center pb-[40px] text-xs text-[#072661] mx-auto gap-2">
+      <div className="mt-6 flex flex-col-reverse md:flex-row justify-between items-center pb-[40px] text-xs text-[#072661] mx-auto gap-2">
         <div className="flex w-full">
           <div className="w-1/2 border-t-2 border-[#193E2C]"></div>
           <div className="w-5/2 border-t-2 border-[#BCD4C7]"></div>

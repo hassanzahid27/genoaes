@@ -10,10 +10,12 @@ import Enterpreneurship from "../components/Enterpreneurship";
 import Scrolling from "../components/Scrolling";
 import Jounney from "../components/Jounney";
 import Footer from "../components/Footer";
+import HomeNavbar from "../components/navbars/HomeNavbar";
 
 const Home = () => {
   return (
     <div className="bg-[#FCFAF2]">
+      <HomeNavbar />
       <Dashboard />
       <Startup />
       <Professor />

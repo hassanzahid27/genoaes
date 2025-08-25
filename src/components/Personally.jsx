@@ -48,43 +48,9 @@ const Personallly = () => {
             alt=""
             className="w-full max-w-full object-contain"
           />
+          <img src="Frame.png" alt="" />
 
-          <div className="flex flex-row sm:flex-row gap-[12px] items-center sm:items-start">
-            <div className="flex flex-col max-w-[183px] items-center justify-center">
-              <h1 className="onest font-light text-[40px] sm:text-[56px] leading-[44px] sm:leading-[56px] text-center uppercase">
-                $7.5 B
-              </h1>
-              <p className="roboto font-light text-[14px] sm:text-[16px] leading-[18px] sm:leading-[20px] text-center">
-                raised by the founders mentoring at Genoa ES
-              </p>
-            </div>
-            <img
-              src="Fram2.png"
-              className="sm:pl-8 w-[120px] sm:w-auto object-contain"
-              alt=""
-            />
-            <img
-              src="Fram3.png"
-              className="w-[120px] sm:w-auto object-contain"
-              alt=""
-            />
-          </div>
-
-          <div className="flex flex-col sm:flex-row items-center sm:items-start gap-4 sm:gap-0">
-            <img
-              src="Fram4.jpg"
-              className="max-w-full sm:max-w-[454px] pr-0 sm:pr-5 object-contain"
-              alt=""
-            />
-            <div className="flex flex-col max-w-[203px] items-center justify-center">
-              <h1 className="onest font-light text-[40px] sm:text-[56px] leading-[44px] sm:leading-[56px] text-center uppercase">
-                $100 B
-              </h1>
-              <p className="roboto font-light text-[14px] sm:text-[16px] leading-[18px] sm:leading-[20px] text-center">
-                raised by the founders mentoring at Genoa ES
-              </p>
-            </div>
-          </div>
+          <img src="Framee.png" alt="" />
         </div>
       </div>
     </div>

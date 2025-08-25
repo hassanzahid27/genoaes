@@ -10,15 +10,15 @@ const September = () => {
         </p>
 
         {/* Divider */}
-        <div className="mt-6 flex flex-col md:flex-row justify-between items-center pb-[20px] md:pb-[40px] text-xs text-[#072661] mx-auto gap-2">
-          <div className="flex w-full md:w-auto">
+        <div className="mt-6 flex flex-col md:flex-row justify-between items-center pb-[40px] text-xs text-[#072661] mx-auto gap-2">
+          <div className="flex w-full">
             <div className="w-1/2 border-t-2 border-[#193E2C]"></div>
-            <div className="w-1/2 border-t-2 border-[#BCD4C7]"></div>
+            <div className="w-5/2 border-t-2 border-[#BCD4C7]"></div>
           </div>
         </div>
 
         {/* Content Section */}
-        <div className="flex flex-col md:flex-col xl:flex-row gap-[20px] lg:gap-[40px]">
+        <div className="flex flex-col-reverse md:flex-col-reverse xl:flex-row gap-[20px] lg:gap-[40px]">
           {/* Left Content */}
           <div className="flex flex-col pt-[32px] lg:pt-[54px] gap-[16px] lg:gap-[21px]">
             <h1 className="text-[#43AA13] onest font-light text-[16px] md:text-[18px] leading-[22px] md:leading-[24px] tracking-[0]">

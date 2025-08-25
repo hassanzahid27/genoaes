@@ -5,7 +5,7 @@ const May = () => {
     <div className="px-4 md:px-[40px] pt-[80px]">
       <div>
         {/* Content Section */}
-        <div className="flex flex-col md:flex-col xl:flex-row gap-[20px] lg:gap-[155px]">
+        <div className="flex flex-col-reverse md:flex-col xl:flex-row gap-[20px] lg:gap-[155px]">
           {/* Left Content */}
           <div className="flex flex-col pt-[32px] lg:pt-[54px] gap-[16px] lg:gap-[21px]">
             <h1 className="text-[#43AA13] onest font-light text-[16px] md:text-[18px] leading-[22px] md:leading-[24px] tracking-[0]">

@@ -3,7 +3,7 @@ import React from "react";
 const Genoa = () => {
   return (
     <div>
-      <div className="px-[40px] flex flex-col lg:flex-row gap-[20px] pt-[30px]">
+      <div className=" px-[20px] md:px-[40px] flex flex-col lg:flex-row gap-[20px] pt-[30px]">
         {/* Image first on mobile, right side on laptop */}
         <img
           src="p.jpg"

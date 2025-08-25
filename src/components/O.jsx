@@ -2,13 +2,14 @@ import React from "react";
 
 const Overview = () => {
   return (
-    <div className="px-[40px] pt-[40px]">
-      <div className="flex flex-col lg:flex-row gap-28">
+    <div className="lg:px-[40px] px-[15px] pt-[40px]">
+      <div className="flex flex-col-reverse lg:flex-row gap-28">
         <div className="bg-[#FAF5E2] p-6 lg:w-5xl">
           <h2 className="text-[#43AA13]   mb-4 roboto font-light text-[24px] leading-[32px] tracking-[0]">
             Program Overview
           </h2>
-          <div className="space-y-2 text-sm  ">
+
+          <div className="space-y-6 text-sm  ">
             <p class="roboto font-normal text-[18px] leading-[24px] tracking-[0]">
               <span className="pr-30 roboto font-light text-[16px] leading-[24px] tracking-[0] text-gray-700">
                 Idea stage
@@ -63,15 +64,19 @@ const Overview = () => {
                 Tuition
               </span>{" "}
               €23,000 <br />
-              <a href="#" className="underline text-[#43AA13]">
+              <a
+                href="#"
+                className="underline pl-36  lg:pl-36 md:pl-50 xl:pl-50"
+              >
                 Scholarships are available
               </a>
             </p>
           </div>
-
-          <button className="mt-6 w-full border border-[#43AA13] text-[#193E2C] py-3 font-medium hover:bg-[#43AA13] hover:text-white">
-            APPLY NOW →
-          </button>
+          <div className="pt-[80px]">
+            <button className="mt-6 w-full border border-[#43AA13] text-[#193E2C] py-3 font-medium hover:bg-[#43AA13] hover:text-white">
+              APPLY NOW →
+            </button>
+          </div>
         </div>
 
         <div className="">
@@ -89,7 +94,7 @@ const Overview = () => {
             Master's.
           </p>
 
-          <div className="grid grid-cols-2 gap-8 lg:pt-[120px]">
+          <div className="grid grid-cols-2 gap-8 lg:pt-[220px]">
             <div className="border-l border-[#43AA13] pl-4">
               <p className="onest">
                 Receive personalized 1:1 guidance from +100 startup experts at

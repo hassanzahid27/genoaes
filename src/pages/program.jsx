@@ -20,10 +20,12 @@ import Applications from "../components/Applications";
 import Journey from "../components/Jounney";
 import Footer from "../components/Footer";
 import Genoa from "../components/Genoa";
+import OurProgram from "../components/navbars/OurProgramNavbar";
 
 const program = () => {
   return (
     <div className="bg-[#FCFAF2]">
+      <OurProgram />
       <Overview />
       <September />
       <October />

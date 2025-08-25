@@ -1,6 +1,47 @@
-import React from "react";
+import React, { useState } from "react";
 
-const N10 = () => {
+const Frequently = () => {
+  const [openIndex, setOpenIndex] = useState(null);
+
+  const toggleFAQ = (index) => {
+    setOpenIndex(openIndex === index ? null : index);
+  };
+
+  const faqs = [
+    {
+      question: "What is the admission process?",
+      answer: (
+        <>
+          The admission process for Genoa Entrepreneurship School includes
+          completing an online application, and attending interviews.{" "}
+          <a href="#" className="text-[#43AA13] underline">
+            Visit page
+          </a>
+        </>
+      ),
+    },
+    {
+      question: "How can I apply?",
+      answer: "You can apply through our online portal.",
+    },
+    {
+      question: "What is the duration of the program?",
+      answer: "The program typically lasts 6 months.",
+    },
+    {
+      question: "What is the cost of attending?",
+      answer: "The cost varies depending on scholarships and aid.",
+    },
+    {
+      question: "Does Genoa ES offer financial aid or scholarships?",
+      answer: "Yes, Genoa ES offers both need-based and merit scholarships.",
+    },
+    {
+      question: "What sets Genoa ES apart from other programs?",
+      answer: "Our hands-on approach and global network of mentors.",
+    },
+  ];
+
   return (
     <div className="px-[40px] pt-[120px]">
       <div className="mb-8 lg:mb-16 flex flex-col lg:flex-row items-start lg:items-center gap-4 lg:gap-12">
@@ -13,109 +54,49 @@ const N10 = () => {
         <div className="w-full lg:flex-1 border-t-2 border-[#193E2C]"></div>
       </div>
 
-      <div class="grid md:grid-cols-2 grid-cols-1 gap-x-12  border-gray-300 p-6">
-        <div class="space-y-4  text-[#202020] max-w-[550px] roboto font-normal text-[24px] leading-[32px] tracking-[0]">
+      <div className="grid md:grid-cols-2 grid-cols-1 gap-12 border-gray-300 mt-8 ">
+        {/* Left text */}
+        <div className="space-y-4 text-[#202020] max-w-[550px] roboto font-normal text-[24px] leading-[32px] tracking-[0]">
           <p>
-            Read our FAQ to clear any doubts. <br />
-            Still need assistance?  Schedule a call on calendly.
+            Have questions about Genoa ES? <br />
+            Check out our FAQ section for answers to commonly asked questions.
           </p>
           <p className="max-w-[330px]">
             Still need assistance? <br />
-            Schedule a call on
-            <a href="#" class="text-[#43AA13] font-medium underline">
+            Schedule a call on{" "}
+            <a href="#" className="text-[#43AA13] font-medium underline">
               Calendly
-            </a>
+            </a>{" "}
+            for further support.
           </p>
         </div>
 
-        <div class="space-y-4">
-          <div class="border-t border-gray-200 pt-3">
-            <div class="flex justify-between items-center cursor-pointer">
-              <h3 class=" text-[#000000]  roboto font-light text-[24px] leading-[32px] tracking-[0] align-middle">
-                How is your mentoring different from an accelerator or any other
-                venture builder?
-              </h3>
-              <span class="text-xl">+</span>
+        {/* FAQ section */}
+        <div className="space-y-4">
+          {faqs.map((faq, index) => (
+            <div key={index} className="border-t border-gray-200 pt-3">
+              <div
+                className="flex justify-between items-center cursor-pointer"
+                onClick={() => toggleFAQ(index)}
+              >
+                <h3 className="text-[#000000] roboto font-light text-[24px] leading-[32px] tracking-[0] align-middle">
+                  {faq.question}
+                </h3>
+                <span className="text-xl">
+                  {openIndex === index ? "−" : "+"}
+                </span>
+              </div>
+              {openIndex === index && (
+                <p className="mt-2 text-[#000000] roboto font-normal text-[18px] leading-[24px] tracking-[0] align-middle">
+                  {faq.answer}
+                </p>
+              )}
             </div>
-          </div>
-
-          <div class="border-t border-gray-200 pt-3">
-            <div class="flex justify-between items-center cursor-pointer">
-              <h3 class=" text-[#000000]  roboto font-light text-[24px] leading-[32px] tracking-[0] align-middle">
-                How is your support different from Oxford, Imperial or Columbia?
-              </h3>
-              <span class="text-xl">+</span>
-            </div>
-          </div>
-
-          <div class="border-t border-gray-200 pt-3">
-            <div class="flex justify-between items-center cursor-pointer">
-              <h3 class=" text-[#000000]  roboto font-light text-[24px] leading-[32px] tracking-[0] align-middle">
-                What is the duration of the program?
-              </h3>
-              <span class="text-xl">+</span>
-            </div>
-            <p class="mt-2 text-gray-600 text-sm hidden">
-              The program typically lasts 6 months.
-            </p>
-          </div>
-
-          <div class="border-t border-gray-200 pt-3">
-            <div class="flex justify-between items-center cursor-pointer">
-              <h3 class=" text-[#000000]  roboto font-light text-[24px] leading-[32px] tracking-[0] align-middle">
-                Are mentors online or in presence?
-              </h3>
-              <span class="text-xl text-[#000000]">+</span>
-            </div>
-          </div>
-
-          <div class="border-t border-gray-200 pt-3">
-            <div class="flex justify-between items-center cursor-pointer">
-              <h3 class=" text-[#000000]  roboto font-light text-[24px] leading-[32px] tracking-[0] align-middle">
-                Will mentors or alumni offer me a job if my startup fails after
-                the program?
-              </h3>
-              <span class="text-xl">+</span>
-            </div>
-          </div>
-
-          <div class="border-t border-gray-200 pt-3">
-            <div class="flex justify-between items-center cursor-pointer">
-              <h3 class=" text-[#000000]  roboto font-light text-[24px] leading-[32px] tracking-[0] align-middle">
-                Will the investors in the Genoa ES network invest in me?
-              </h3>
-              <span class="text-xl">+</span>
-            </div>
-          </div>
-
-          <div class="border-t border-gray-200 pt-3">
-            <div class="flex justify-between items-center cursor-pointer">
-              <h3 class=" text-[#000000]  roboto font-light text-[24px] leading-[32px] tracking-[0] align-middle">
-                How available will my mentors be?
-              </h3>
-              <span class="text-xl">+</span>
-            </div>
-          </div>
-          <div class="border-t border-gray-200 pt-3">
-            <div class="flex justify-between items-center cursor-pointer">
-              <h3 class=" text-[#000000]  roboto font-light text-[24px] leading-[32px] tracking-[0] align-middle">
-                Do I have access to mentors after the program?
-              </h3>
-              <span class="text-xl">+</span>
-            </div>
-          </div>
-          <div class="border-t border-gray-200 pt-3">
-            <div class="flex justify-between items-center cursor-pointer">
-              <h3 class=" text-[#000000]  roboto font-light text-[24px] leading-[32px] tracking-[0] align-middle">
-                What if I need a specific mentor that is not in the list?
-              </h3>
-              <span class="text-xl">+</span>
-            </div>
-          </div>
+          ))}
         </div>
       </div>
     </div>
   );
 };
 
-export default N10;
+export default Frequently;

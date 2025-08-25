@@ -11,10 +11,12 @@ import N8 from "../components/N8";
 import N6 from "../components/N6";
 import N4 from "../components/N4";
 import N5 from "../components/N5";
+import OurNetwork from "../components/navbars/OurNetworkNavbar";
 
 const Network = () => {
   return (
     <div className="bg-[#FCFAF2]">
+      <OurNetwork />
       <N1 />
       <N2 />
       <N3 />
