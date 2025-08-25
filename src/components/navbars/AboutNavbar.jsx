@@ -101,7 +101,7 @@ const Abouttttt = () => {
         {/* Hero Section */}
         {/* Hero Section */}
         <div className="pt-[23px] pb-[80px]">
-          <div className="flex flex-col lg:flex-row items-center lg:items-start gap-10 lg:gap-[250px]">
+          <div className="flex flex-col lg:flex-row items-center lg:items-start gap-10 lg:gap-[190px]">
             {/* Left Text */}
             <div className="flex flex-col max-w-[640px] gap-[16px] text-center lg:text-left">
               <h1 className="onest font-light text-[28px] sm:text-[32px] lg:text-[40px] leading-[36px] sm:leading-[40px] tracking-[0] uppercase text-[#FCFAF2]">
@@ -117,7 +117,7 @@ const Abouttttt = () => {
             </div>
 
             {/* Right Image */}
-            <div className="w-full max-w-[700px] flex justify-center">
+            <div className="w-full max-w-[800px] flex justify-center">
               <img
                 src="AH.jpg"
                 alt="Hero"

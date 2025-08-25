@@ -101,7 +101,7 @@ const OurNetwork = () => {
         {/* Hero Section */}
         {/* Hero Section */}
         <div className="pt-[23px] pb-[80px]">
-          <div className="flex flex-col lg:flex-row items-center lg:items-start gap-10 lg:gap-[250px]">
+          <div className="flex flex-col lg:flex-row items-center lg:items-start gap-10 lg:gap-[150px]">
             {/* Left Text */}
             <div className="flex flex-col max-w-[640px] gap-[16px] text-center lg:text-left">
               <h1 className="onest font-light text-[28px] sm:text-[32px] lg:text-[40px] leading-[36px] sm:leading-[40px] tracking-[0] uppercase text-[#FCFAF2]">
@@ -117,7 +117,7 @@ const OurNetwork = () => {
             </div>
 
             {/* Right Image */}
-            <div className="w-full max-w-[700px] flex justify-center">
+            <div className="w-full max-w-[800px] flex justify-center">
               <img
                 src="HN.jpg"
                 alt="Hero"
@@ -127,7 +127,7 @@ const OurNetwork = () => {
           </div>
 
           {/* Mentors Section */}
-          <div className="flex flex-col gap-[32px] mt-12">
+          <div className="flex flex-col gap-[32px] ">
             <p className="roboto font-normal text-[16px] sm:text-[18px] leading-[24px] tracking-[0] text-[#43AA13] text-center lg:text-left">
               Joined by mentors from:
             </p>
